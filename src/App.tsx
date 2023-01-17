@@ -3,7 +3,7 @@ import AddList from "./component/AddList";
 import Body from "./component/Body";
 import Header from "./component/Header";
 
-function App() {
+const App: React.FC = () => {
   return (
     <div>
       <Header></Header>
@@ -11,6 +11,6 @@ function App() {
       <Body></Body>
     </div>
   );
-}
+};
 
 export default App;
