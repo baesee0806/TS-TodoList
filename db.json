@@ -1,19 +1,24 @@
 {
-  "posts": [
+  "List": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "text": "123",
+      "isDone": false
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "text": "1234",
+      "isDone": false
+    },
+    {
+      "id": 3,
+      "text": "1234",
+      "isDone": false
+    },
+    {
+      "id": 4,
+      "text": "fdsfds",
+      "isDone": false
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
